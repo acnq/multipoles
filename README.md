@@ -17,7 +17,7 @@ Examples of this are the electrostatic and Newtonian gravitational potential.
 If you need to evaluate $\Phi(x,y,z)$ at many points, calculating the integral for each point is computationally expensive. As a faster alternative, we can express $\Phi(x,y,z)$ in terms of the multipole moments $q_{lm}$:
 
 $$
-\Phi(x,y,z)=\sum^{\infin}_{l=0}\underbrace{\sqrt{4\pi}{2l + 1}\sum^l_{m=-l}Y_{lm}(\theta,\phi)\frac{q_{lm}}{r^{l + 1}}}_{\Phi^{(l)}}
+\Phi(x,y,z)=\sum^{\infin}_{l=0}\underbrace{\sqrt{\frac{4\pi}{2l + 1}}\sum^l_{m=-l}Y_{lm}(\theta,\phi)\frac{q_{lm}}{r^{l + 1}}}_{\Phi^{(l)}}
 $$
 
 
